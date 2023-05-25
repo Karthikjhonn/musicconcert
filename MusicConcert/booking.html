@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SouthRoar</title>
+    <!-- stylesheet Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        footer{
+            margin-bottom: 0 !important;
+        }
+        nav{
+            margin-left: 10%;
+            justify-content: start;
+            align-items: center;
+            color: #fff;
+            
+        }
+        nav p{
+            margin: 0 15px;
+            font-size: 13px;
+           
+        }
+        nav p a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .fa-house{
+            padding-right: 5px;
+            position: relative;
+            top: -1px;
+        }
+        
+    </style>
+</head>
+<body>
+        <div id="welcome">
+          <marquee behavior="slide" direction="left"> <h3><i class="fa-regular fa-user"></i>Welcome to SouthRoar 2023</h3> </marquee>
+        </div>  
+        <header style="background-color: black;">
+            <nav>
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo.png" ></a>
+                </div>
+               <p><i class="fa-solid fa-house"></i><a href="index.html">Home</a><i class="fa-solid fa-angle-right"></i> Ticket Bookings</p>
+
+            </nav>
+        </header>
+        <!-- booking -->
+        <div id="booking-form" class="section-p">
+            <form action="#">
+            <center><h2>Get Started Here</h2></center>
+            <div class="d-flex">
+            <div class="form-group">
+                <input type="text" placeholder="Full Name:" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email address:" required>
+            </div>
+             </div>
+            <div class="form-group">
+                <input type="text" placeholder="Mobile No:" maxlength="10" required>
+            </div>
+            <h2>Choose Ticket Type</h2>
+             <div class="d-flex">
+            <div class="form-group">
+                <input type="radio" name="price" id="699">
+                <label for="699">Basic<i class="fa-solid fa-indian-rupee-sign"></i>699</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" name="price" id="1199">
+                <label for="1199">Standard  <i class="fa-solid fa-indian-rupee-sign"></i>1199</label>
+            </div>
+            </div>
+            <div class="form-group">
+                <input type="number" min="0" max="15" placeholder="Number of Tickets">
+            </div>
+            <div class="form-group">
+                <textarea  rows="5" placeholder="Additional Request"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Buy Ticket">
+            </div>
+        </form>
+        </div>
+     <!-- footer -->
+     <footer>
+        <section class="section-p">
+            <img src="img/logo.png">
+            <div id="quick-link">
+            <a href="index.html">Home</a> /
+            <a href="index.html">About</a> /
+            <a href="index.html">Artists</a> / 
+            <a href="index.html">Schedule</a> /
+            <a href="index.html">Contact</a>
+            </div>
+            <div>
+                <a href="#">terms&condition</a> <a href="booking.html">Ticket Booking</a>  <small>SouthRoar.Pvt.Ltd Chennai 600002.</small>
+            </div>
+            <div id="disclaimar">
+                <small>The content and image used on this site are copyright protected and copyright with the respective owners. The usage of the content and img on this site is promote the works. If Any copyright claims contact <u>Southroar2022@gmail.com</u> Thank You. </small>
+            </div>      
+            <div id="follow-us">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div id="copy-right">
+                <p>Copyright 2022 <i class="fa-regular fa-copyright"></i> All Rights Reserved. Design: <a href="#">Karthii</a></p>
+            </div>
+        </section>
+     </footer>
+
+    
+
+    <!-- js script> -->
+    <script src="index.js"></script>
+</body>
+</html>
